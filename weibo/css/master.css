@@ -1,0 +1,50 @@
+/*重置样式*/
+body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 { margin: 0;padding: 0;}
+
+
+body { background: #FFF; color: #000; font-size: 12px; font-style: normal; font-family:'Microsoft Yahei','微软雅黑','Simsun','宋体','Arial', sans-serif;}
+em, b, i { font-style:normal;}
+li { list-style:none;}
+img { border:none;}
+a { text-decoration:none; color:#244666;}
+a:hover { text-decoration:underline; color:#f50;}
+table { border-spacing:0; border-collapse:collapse;}
+
+/*通用*/
+.hide {display: none;}
+.flt {float:left;}
+.frt {float:right;}
+.clear { clear: both;}
+.clearfix { *zoom: 1;}
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: "";}
+.clearfix:after { clear: both;}
+
+/* master-module */
+.module-header{
+    height: 52px;
+    background: #08c;
+}
+
+.header{
+    width: 1244px;
+    height: 52px;
+    margin: 0 auto;
+    background: #f60;
+}
+
+.module-body{
+    min-height: 600px;
+    background: #6c0;
+}
+
+.module-footer{
+    height: 120px;
+    background: #ccc;
+}
+
+.content{
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+    background: #09c;
+}
